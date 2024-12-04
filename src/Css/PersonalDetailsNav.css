@@ -1,0 +1,20 @@
+.personaldetails-nav{
+    position:absolute;
+    
+}
+.personaldetails-nav ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    background-color: rgb(129, 227, 155);
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+.personaldetails-nav ul:hover{
+    cursor: pointer;
+}
+.personaldetails-nav ul li:active{
+    background-color: lightblue;
+    
+}

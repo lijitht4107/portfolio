@@ -9,8 +9,8 @@ const Header = () => {
       <div className='container'>
         <div className='folio-header'>
             <ul>
-                <li onClick={()=>navigate('/personaldata')}>Personal Details</li>
-                <li>Profetional Details</li>
+                <li onClick={()=>navigate('/personaldetails-nav')}>Personal Details</li>
+                <li>Images Of Coding</li>
                 <li>Projects</li>
                 <li>Using Tools/</li>
             </ul>
