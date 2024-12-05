@@ -6,9 +6,9 @@ const Address = () => {
   return (
     <>
     <PersonalDetailsNav />
-    <div className='container personal-details'>
-      <h2 className='personaldata-h'>Personal Details</h2>
-      <table className='personaldata-table'>
+    <div className='container address-details'>
+      <h2 className='address-h'>Personal Details</h2>
+      <table className='address-table'>
         <tr>
           <td>Name</td>
           <td>Lijith</td>

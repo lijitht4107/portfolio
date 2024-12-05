@@ -1,4 +1,4 @@
-.personal-details{
+.address-details{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,4 +11,10 @@ th, td {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
