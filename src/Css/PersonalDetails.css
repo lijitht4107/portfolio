@@ -3,7 +3,10 @@
     flex-direction: column;
     align-items: center;
 }
-td:hover {background-color: #D6EEEE;}
+td:hover {
+  background-color: #D6EEEE;
+  border-radius: 2em;
+}
 
 
 th, td {
@@ -17,4 +20,31 @@ th, td {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    
+  }
+  .social-img-links a img{
+    width: 10%; 
+  }
+  .social-img-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20%;
+    
+  }
+  a{
+    text-decoration: none;
+    color: green;
+  }
+  a:hover{
+    color: rgb(14, 87, 112);
+    text-align: center;
   }

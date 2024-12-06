@@ -10,7 +10,7 @@ const PersonalDetailsNav = () => {
       <ul>
         <li onClick={()=>navigate('/address')}>Adress</li>
         <li onClick={()=>navigate('/contactdetails')}>Contacts</li>
-        <li>physical</li>
+        <li onClick={()=>navigate('/physical')}>physical</li>
       </ul>
     </div>
   )

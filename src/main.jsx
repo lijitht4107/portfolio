@@ -10,6 +10,7 @@ import PersonalDetails from './Components/Address.jsx';
 import PersonalDetailsNav from './Components/PersonalDetailsNav.jsx';
 import Address from './Components/Address.jsx';
 import Contacts from './Components/Contacts.jsx';
+import Physical from './Components/Physical.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:'/contactdetails',
         element:<Contacts />
+      },
+      {
+        path :'/physical',
+        element :<Physical />
       }
     ],
   },
