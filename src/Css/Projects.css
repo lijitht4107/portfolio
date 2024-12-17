@@ -1,0 +1,24 @@
+.projects{
+    text-align: center;
+}
+.webapp-links{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.weblink-item{
+    padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  background-color: orange;
+}
+.weblink{
+    background-color: rgb(199, 158, 22);
+    border-radius: 1em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.weblinks{
+    margin: 20px;
+}

@@ -11,6 +11,7 @@ import PersonalDetailsNav from './Components/PersonalDetailsNav.jsx';
 import Address from './Components/Address.jsx';
 import Contacts from './Components/Contacts.jsx';
 import Physical from './Components/Physical.jsx';
+import Projects from './Components/Projects.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path :'/physical',
         element :<Physical />
+      },
+      {
+        path : '/myprojects',
+        element : <Projects />
       }
     ],
   },
