@@ -12,6 +12,7 @@ import Address from './Components/Address.jsx';
 import Contacts from './Components/Contacts.jsx';
 import Physical from './Components/Physical.jsx';
 import Projects from './Components/Projects.jsx';
+import TechStack from './Components/UsingTools.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,9 @@ const router = createBrowserRouter([
       {
         path : '/myprojects',
         element : <Projects />
+      },{
+        path : '/mytools',
+        element : <TechStack/>
       }
     ],
   },

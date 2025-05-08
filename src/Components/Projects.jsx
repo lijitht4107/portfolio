@@ -11,7 +11,7 @@ const Projects = () => {
         <article className='weblink-item'>
         <h3>Oodo Web App</h3>
         <p>This is my simple and powerfull web app</p>
-        <a className='weblink' href="https://shaliea.odoo.com/"> e-Commersce </a>
+        <a className='weblink' href="  "> e-Commersce </a>
         </article>
         <article className='weblink-item'>
             <h3>JavaScript</h3>

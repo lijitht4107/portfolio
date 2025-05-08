@@ -1,0 +1,32 @@
+.tech-section {
+    padding: 2rem;
+    text-align: center;
+    background: #f9fafb;
+  }
+  
+  .tech-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .tech-item {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .tech-icon {
+    font-size: 3rem;
+  }
+  
+  .tech-name {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
