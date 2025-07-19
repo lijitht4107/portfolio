@@ -45,7 +45,7 @@ const PersonalDetailsNav = () => {
 
         {/* Resume Button */}
         <a
-          href="/Lijith_Resume.pdf" // Place your resume in the public folder
+          href="/LIJITH_1C.pdf" // Place your resume in the public folder
           download
           className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition mb-4"
         >
